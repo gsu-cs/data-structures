@@ -11,7 +11,7 @@ This course professor is Jaman Bhola
 For Instance:
 ```bash
 .
-└── anagram
+└── mega-million
     └── kyle-mckean
         ├── manifest.txt
         └── megaMillion.java
