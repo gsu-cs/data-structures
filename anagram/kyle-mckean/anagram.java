@@ -3,6 +3,7 @@ import java.util.stream.*;
 import java.nio.file.*;
 import java.nio.file.NoSuchFileException;
 import java.io.IOException;
+import java.io.Serializable;
 import java.util.stream.Collectors;
 /**
  * @author Kyle McKean
@@ -68,7 +69,7 @@ public class anagram {
      *     Anagram implements comparable based on the signature
      *     This is used to group a collection of Anagram objects
      */
-    private static class Anagram implements Comparable<Anagram> {
+    private static class Anagram implements Comparable<Anagram>, Serializable {
         private String label;
         private static String signature;
         public Anagram(String label) {
