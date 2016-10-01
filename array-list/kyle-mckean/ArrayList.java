@@ -1,9 +1,9 @@
-public class Arraylist<E> {
+public class ArrayList<E> {
     private int capacity;
     private int pointer;
     private E[] elements;
-    public Arraylist() { this(10); }
-    public Arraylist(int initialCap) {
+    public ArrayList() { this(10); }
+    public ArrayList(int initialCap) {
         this.capacity = initialCap;
         this.pointer  = 0;
         this.elements = (E[]) new Object[initialCap];

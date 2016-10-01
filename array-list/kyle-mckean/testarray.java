@@ -1,8 +1,8 @@
 public class testarray {
     public static void main(String[] args) {
-        Arraylist<Integer> defaultInts = new Arraylist<Integer>();
+        ArrayList<Integer> defaultInts = new ArrayList<Integer>();
         System.out.println("Default construtor initialized");
-        Arraylist<Integer> ints = new Arraylist<Integer>(2);
+        ArrayList<Integer> ints = new ArrayList<Integer>(2);
         System.out.println("With capacity construtor initialized (capacity = 2)");
         for (int i = 0; i < 10; i++) {
             ints.add(i);
