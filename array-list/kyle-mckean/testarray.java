@@ -1,3 +1,7 @@
+/**
+ * The <tt> testarray </tt> class tests every part of the
+ * <tt> ArrayList </tt> class
+ **/
 public class testarray {
     public static void main(String[] args) {
         ArrayList<Integer> defaultInts = new ArrayList<Integer>();
