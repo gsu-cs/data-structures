@@ -28,7 +28,7 @@
  *    The collection is not empty
  *    The element 10 is not in the collection
  *    The element '6' is at index: 7
- *    Removed element at index 2
+ *    Removed element 2
  *    The collection looks like: [ 0 1 20 3 4 5 6 7 8 9 ]
  * Explaination of Classes:
  * -- See above each class
@@ -122,8 +122,8 @@ public class ArrayList<E> {
      * @pre 0 <= index <= size()
      * @param index the index of the element to be removed
      */
-    public void remove(int index) {
-        for(int i = index + 1; i < this.pointer; i++) {
+    public void remove(E element) {
+        for(int i = find(element) + 1; i < this.pointer; i++) {
             this.elements[i-1] = this.elements[i];
         }
         pointer--;

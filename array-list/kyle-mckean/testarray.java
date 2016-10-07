@@ -29,7 +29,7 @@ public class testarray {
         }
         System.out.println("The element '6' is at index: " + ints.find(6));
         ints.remove(2);
-        System.out.println("Removed element at index 2");
+        System.out.println("Removed element 2");
         System.out.println("The collection looks like: " + ints);
     }
 }
